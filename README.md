@@ -1,2 +1,3 @@
-# Web-dev
-HTML, CSS, JavaScript based minor projects
+#### HTML, CSS, JavaScript based minor projects
+
+- Tic-Tac-Toe: game implemented using javascript
