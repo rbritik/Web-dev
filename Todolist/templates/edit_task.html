@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Task</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
+</head>
+<body>
+    <header>
+        <h1>To-do List App</h1>
+    </header>
+    <main>
+        <h2 style="text-align:center;">Edit Task</h2>
+        <form id="taskForm">
+            <div class="label-input">
+                <label for="taskName">Task Name:</label>
+                <input type="text" id="taskName" name="taskName"  required>
+            </div>
+            
+            <label for="taskDescription">Task Description:</label>
+            <textarea id="taskDescription" name="taskDescription" required></textarea>
+
+            <button type="submit">Update</button>
+            <a href="/" class="back">Back</a>
+        </form>
+    </main>
+    <script src="{{ url_for('static', filename='js/edit_task.js') }}"></script>
+</body>
+</html>
